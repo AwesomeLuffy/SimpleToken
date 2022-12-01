@@ -1,4 +1,3 @@
-<!-- THIS IS AN EXAMPLE OF HOW TO USE -->
 <?php
 
 
@@ -21,7 +20,7 @@ $customPayload = [
 
 $mycustompayloadtoken = Token::withCustomPayload($customPayload, $secret, $expiration);
 ?>
-
+<!-- THIS IS AN EXAMPLE OF HOW TO USE -->
 <!DOCTYPE HTML>
 <html lang="fr">
 <head>
