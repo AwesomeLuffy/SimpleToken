@@ -18,7 +18,7 @@ $customPayload = [
         "custom_field_1" => "value_of_custom_field_1"
 ];
 
-$mycustompayloadtoken = Token::withCustomPayload($customPayload, $secret, $expiration)
+$mycustompayloadtoken = Token::withCustomPayload($customPayload, $secret, $expiration);
 ?>
 
 <!DOCTYPE HTML>
