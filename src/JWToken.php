@@ -1,6 +1,6 @@
 <?php
 
-require "exceptions/ValidityException.php";
+require_once "exceptions/ValidityException.php";
 
 class JWToken
 {

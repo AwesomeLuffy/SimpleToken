@@ -1,5 +1,5 @@
 <?php
-require "JWToken.php";
+require_once "JWToken.php";
 
 class Token
 {
