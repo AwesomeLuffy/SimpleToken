@@ -107,7 +107,7 @@ class JWToken
         return (array) json_decode(base64_decode($this->header, true));
     }
 
-    private function readPayload(): array{
+    public function readPayload(): array{
         return (array) json_decode(base64_decode($this->payload, true));
     }
 
