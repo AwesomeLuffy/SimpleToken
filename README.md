@@ -6,7 +6,7 @@
 SimpleToken is a small code part that you can include in your project to generate a token.
 This is a college project.
 
-# What is JWT ?
+# 🗒 What is JWT ?
 JWT (JSON Web Token) is a token based on JSON encode.
 This allow you to generate something like :
 ```
@@ -27,10 +27,10 @@ That mean :
 }
 ```
 For more information about it go to [JWT Website](https://jwt.io/)
-# How to install
+# 🛠 How to install
 Simply drag and drop the src file in your project, you can rename it if you want.
 
-# How to use
+# 🪛 How to use
 
 You have to import the Token class and call the method "create".
 If you want to do a custom payload, simply call the method "withCustomPayload"
