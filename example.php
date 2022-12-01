@@ -3,7 +3,8 @@
 
 
 
-require "src/Token.php";
+require_once "src/Token.php";
+require_once "src/forcetoken/ForceToken.php";
 
 
 $userid = "123456";
